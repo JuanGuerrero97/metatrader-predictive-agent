@@ -14,8 +14,8 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import StandardScaler
 from sklearn.pipeline import Pipeline
 
-from .data_utils import load_data, compute_technical_indicators, prepare_features, split_data
-from .utils import ensure_dir, save_model, load_model, evaluate_model
+from src.data_utils import load_data, compute_technical_indicators, prepare_features, split_data
+from src.utils import ensure_dir, save_model, load_model, evaluate_model
 
 
 def train_model(data_path: Path, model_path: Path, test_size: float = 0.2, random_state: int = 42) -> None:
