@@ -1,0 +1,13 @@
+# Virtual environments
+venv/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+
+# Data and models
+data/
+models/
+
+# Jupyter notebook caches
+.ipynb_checkpoints/
