@@ -12,7 +12,7 @@ import pandas as pd
 from pathlib import Path
 import plotly.graph_objs as go
 
-from .data_utils import load_data, compute_technical_indicators, prepare_features
+from src.data_utils import load_data, compute_technical_indicators, prepare_features
 from .utils import load_model
 
 DEFAULT_MODEL_PATH = Path("models/model.joblib")
